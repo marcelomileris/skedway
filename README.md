@@ -75,7 +75,7 @@ Você também pode acessar uma versão online do sistema através do endereço [
 ## Capturas de Tela
 
 ### Tela Principal
-![Tela Principal](images/dashboard.jpg)
+![Tela Principal]([images/dashboard.jpg](https://github.com/marcelomileris/skedway/blob/main/blob/main/images/dashboard.jpg))
 
 ### Tela de Eventos (Novo)
 ![Tela de Eventos](images/new.jpg)
