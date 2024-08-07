@@ -4,33 +4,35 @@ Event Manager é um sistema de gerenciamento de eventos desenvolvido em PHP vani
 
 ## Funcionalidades
 
-- Criação, edição e exclusão de eventos.
-- Visualização de eventos em um calendário interativo.
+-   Criação, edição e exclusão de eventos.
+-   Visualização de eventos em um calendário interativo.
 
 ## Tecnologias Utilizadas
 
-- PHP (Vanilla)
-- MySQL
-- HTML/CSS/JavaScript
-- Bootstrap
-- FullCalendar
+-   PHP (Vanilla)
+-   MySQL
+-   HTML/CSS/JavaScript
+-   Bootstrap
+-   FullCalendar
 
 ## Pré-requisitos
 
-- PHP 7.3+
-- MySQL 5.7+
-- Docker (opcional)
+-   PHP 7.3+
+-   MySQL 5.7+
+-   Docker (opcional)
 
 ## Instalação
 
 ### Configuração em Servidor Local Apache
 
 1. Clone o repositório:
+
     ```sh
     git clone https://github.com/marcelomileris/skedway.git
     ```
 
 2. Navegue até o diretório do projeto:
+
     ```sh
     cd skedway
     ```
@@ -49,16 +51,19 @@ Event Manager é um sistema de gerenciamento de eventos desenvolvido em PHP vani
 ### Utilizando Docker Compose
 
 1. Clone o repositório:
+
     ```sh
     git clone https://github.com/marcelomileris/skedway.git
     ```
 
 2. Navegue até o diretório do projeto:
+
     ```sh
     cd skedway
     ```
 
 3. Execute o Docker Compose:
+
     ```sh
     docker-compose up -d
     ```
@@ -75,10 +80,14 @@ Você também pode acessar uma versão online do sistema através do endereço [
 ## Capturas de Tela
 
 ### Tela Principal
-![Tela Principal]([images/dashboard.jpg](https://github.com/marcelomileris/skedway/blob/main/blob/main/images/dashboard.jpg))
+
+![Tela Principal]
+<img src="./blob/dashboard.jpg" width="39%"/><br>
 
 ### Tela de Eventos (Novo)
+
 ![Tela de Eventos](images/new.jpg)
 
 ### Tela de Eventos (Edição)
+
 ![Tela de Eventos](images/edit.jpg)
