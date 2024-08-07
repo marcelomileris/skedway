@@ -1,4 +1,4 @@
-# Event Manager
+# Desenvolvimento PHP - Gerenciamento de Eventos
 
 Event Manager é um sistema de gerenciamento de eventos desenvolvido em PHP vanilla, utilizando o modelo MVC e banco de dados MySQL.
 
