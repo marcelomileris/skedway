@@ -77,5 +77,8 @@ Você também pode acessar uma versão online do sistema através do endereço [
 ### Tela Principal
 ![Tela Principal](images/dashboard.png)
 
-### Tela de Eventos
-![Tela de Eventos](images/events.png)
+### Tela de Eventos (Novo)
+![Tela de Eventos](images/new.png)
+
+### Tela de Eventos (Edição)
+![Tela de Eventos](images/edit.png)
