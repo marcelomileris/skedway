@@ -82,12 +82,12 @@ Você também pode acessar uma versão online do sistema através do endereço [
 ### Tela Principal
 
 ![Tela Principal]
-<img src="./blob/dashboard.jpg" width="39%"/><br>
+<img src="./blob/dashboard.jpg" width="50%"/><br>
 
 ### Tela de Eventos (Novo)
 
-![Tela de Eventos](images/new.jpg)
+<img src="./blob/new.jpg" width="50%"/><br>
 
 ### Tela de Eventos (Edição)
 
-![Tela de Eventos](images/edit.jpg)
+<img src="./blob/edit.jpg" width="50%"/>
