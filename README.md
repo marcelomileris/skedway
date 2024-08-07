@@ -1,17 +1,81 @@
+# Event Manager
 
-# Desenvolvimento PHP - Gerenciamento de Eventos
+Event Manager é um sistema de gerenciamento de eventos desenvolvido em PHP vanilla, utilizando o modelo MVC e banco de dados MySQL.
 
-O sistema foi criado utilizando PHP no modelo MVC.
+## Funcionalidades
 
-Para utilizar o sistema, temos alguns métodos.
+- Criação, edição e exclusão de eventos.
+- Visualização de eventos em um calendário interativo.
 
+## Tecnologias Utilizadas
 
-## Método 01
+- PHP (Vanilla)
+- MySQL
+- HTML/CSS/JavaScript
+- Bootstrap
+- FullCalendar
 
-Em seu ambiente, configurado com apache ou nginx, crie uma referência à pasta do projeto, execute o arquivo "script.sql" em seu database.
-## Método 02
+## Pré-requisitos
 
-Execute o comando ```docker-compose up -d --build ``` na raiz do sistema e acesse através do endereço ```http://localhost```.
-## Método 03
+- PHP 7.3+
+- MySQL 5.7+
+- Docker (opcional)
 
-Acesse atráves do endereço https://skedway.marcelom.dev
+## Instalação
+
+### Configuração em Servidor Local Apache
+
+1. Clone o repositório:
+    ```sh
+    git clone https://github.com/marcelomileris/skedway.git
+    ```
+
+2. Navegue até o diretório do projeto:
+    ```sh
+    cd skedway
+    ```
+
+3. Configure o banco de dados no arquivo `config.php`.
+
+4. Importe o arquivo SQL `script.sql` no seu banco de dados MySQL.
+
+5. Configure o servidor Apache para apontar para o diretório do projeto.
+
+6. Acesse o sistema via navegador:
+    ```sh
+    http://localhost/event-manager
+    ```
+
+### Utilizando Docker Compose
+
+1. Clone o repositório:
+    ```sh
+    git clone https://github.com/marcelomileris/skedway.git
+    ```
+
+2. Navegue até o diretório do projeto:
+    ```sh
+    cd skedway
+    ```
+
+3. Execute o Docker Compose:
+    ```sh
+    docker-compose up -d
+    ```
+
+4. Acesse o sistema via navegador:
+    ```sh
+    http://localhost
+    ```
+
+## Uso
+
+Você também pode acessar uma versão online do sistema através do endereço [https://skedway.marcelom.dev](https://skedway.marcelom.dev).
+
+## Capturas de Tela
+
+### Tela Principal
+![Tela Principal](images/dashboard.png)
+
+### Tela de Eventos
+![Tela de Eventos](images/events.png)
