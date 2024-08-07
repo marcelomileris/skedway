@@ -80,14 +80,10 @@ Você também pode acessar uma versão online do sistema através do endereço [
 ## Capturas de Tela
 
 ### Tela Principal
-
-![Tela Principal]
 <img src="./blob/dashboard.jpg" width="50%"/><br>
 
 ### Tela de Eventos (Novo)
-
 <img src="./blob/new.jpg" width="50%"/><br>
 
 ### Tela de Eventos (Edição)
-
 <img src="./blob/edit.jpg" width="50%"/>
